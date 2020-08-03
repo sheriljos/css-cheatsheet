@@ -1,0 +1,176 @@
+/* Reset: every element, every style set margin and padding to zero 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*/
+
+body{
+    background: thistle;
+    color: blue;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+
+    /* Same as above */
+    font: normal 1em Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em;
+
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.button {
+    border: darkcyan;
+    background-color: darkcyan;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: solid;
+    box-shadow: 0 9px #999;
+}
+
+.clr {
+    clear: both;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #999;
+  transform: translateY(6px);
+}
+
+.button:focus {
+    outline:0;
+}
+
+.box-1 {
+    background-color: orange;
+    color: green;
+
+    border: 5px purple solid;
+    border-width: 2px;
+    border-bottom-width: 5px;
+    border-top-style: dotted;
+
+    padding: 20px;
+    margin-top: 20px
+}
+
+.box-1 h1 {
+    font-family: fantasy;
+    font-weight: bolder;
+    /* search for font styles */
+
+    letter-spacing: 0.1em;
+    word-spacing: .5em;
+}
+
+.box-2 {
+    border: 5px dotted turquoise;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.preferences {
+    border: 2px solid salmon;
+    color: floralwhite;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.preferences h1 {
+    text-align: center;
+}
+
+.preferences li {
+    list-style: none;
+    border-bottom: 1px dotted cornflowerblue;
+    padding-bottom: 3px;
+    list-style-image: url(images/flower.png);
+}
+
+a {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: salmon;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+/* this works by actual location */
+a:visited {
+    color: blueviolet;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.form-box {
+    border: 2px solid darkcyan;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"], 
+.form-box textarea {
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid darkcyan;
+    padding: 20px;
+    /* The box-sizing CSS property sets how the total width and height of an element is calculated. */
+    box-sizing: border-box;
+}
+
+.three-column {
+    margin-bottom: 30px;
+}
+
+.main-block {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 40%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: salmon;
+    color: springgreen;
+}
+
+.two-column {
+    margin-top: 30px;
+}
