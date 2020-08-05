@@ -182,6 +182,10 @@ ul li:last-child {
     /* Positioned relative to normal position */
     position: relative;
     top: 100px;
+    background-image: url('images/fairy.jpeg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 .p-box h1 {
