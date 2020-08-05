@@ -174,3 +174,35 @@ ul li:last-child {
 .two-column {
     margin-top: 30px;
 }
+
+.p-box {
+    border: 3px solid #73AD21;
+    width: 1000px;
+    height: 400px;
+    /* Positioned relative to normal position */
+    position: relative;
+    top: 100px;
+}
+
+.p-box h1 {
+    /* Positioned relative to the nearest positioned ancestor */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.p-box h2 {
+    /* Positioned relative to the nearest positioned ancestor */
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+}
+
+.fix-me {
+    /* 
+        Always stays in the same position even if the page is scroller. 
+        It is positioned relative to the view port
+    */
+    position: fixed;
+    top: 100px;
+}
