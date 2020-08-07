@@ -210,3 +210,23 @@ ul li:last-child {
     position: fixed;
     top: 100px;
 }
+
+.my-list {
+    margin-top: 130px;
+}
+
+.my-list li:first-child {
+    background-color: springgreen;
+}
+
+.my-list li:last-child {
+    background-color: tan;
+}
+
+.my-list li:nth-child(7) {
+    background: tomato;
+}
+
+.my-list li:nth-child(even) {
+    background: yellowgreen;
+}
